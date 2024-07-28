@@ -1,1 +1,13 @@
-{{CODIGO INICIAL}}
+def acoes_subindo(precos):
+    # Seu código aqui
+    return None
+
+print("Example:")
+print(acoes_subindo([100, 102, 103, 105, 107, 106, 108]))
+
+# As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
+assert acoes_subindo([100, 102, 103, 105, 107, 106, 108]) == True
+assert acoes_subindo([100, 101, 102, 100, 102]) == False
+assert acoes_subindo([90, 91, 92, 93]) == True
+
+print("Seu código passou pelos testes, clique em Check para avançar!")
